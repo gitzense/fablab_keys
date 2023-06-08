@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Fablab Keys</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 id="mainText">Fablab Keys</h1>
+        </div>
+        <div>
+            <img id="img" src="regularguy-eth-q7h8LVeUgFU-unsplash 1.png">
+        </div>
+        <div id="blur"></div>
+        <div>
+            <input id="blurBox1" class="blurBox" type="text" placeholder="Name">
+        </div>
+        <div >
+            <select id="blurBox2" class="blurBox">
+                <option>K112</option>
+                <option>K224</option>
+                <option>K016</option>
+            </select>
+        </div>
+        <div >
+            <input id="blurBox3" class="blurBox" type="datetime-local">
+        </div>
+        <div>
+            <button id="button" onclick="buttonPressed()">Take key</button> 
+        </div>
+        <div>
+            <button id="chosenKey" onclick="getUsers()">All keys</button>
+            <!-- <select id="chosenKey">
+                <option value="all">All keys</option>
+                <option value="k112">K112</option>
+                <option value="k224">K224</option>
+                <option value="k016">K016</option>
+            </select> -->
+        </div>
+        <div>
+            <hr id="mainLine">
+        </div>
+
+        <div id="list"></div>
+
+    </body>
+    <script src="script.js"></script>
+</html>

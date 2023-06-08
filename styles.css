@@ -1,0 +1,209 @@
+
+#mainText {
+    position: absolute;
+    height: 60px;
+    left: 86px;
+    top: 0px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+}
+
+#img {
+    position: absolute;
+    width: 1280px;
+    height: 339px;
+    left: 0px;
+    top: 140px;
+    background: url(regularguy-eth-q7h8LVeUgFU-unsplash.jpg);
+}
+
+#blur {
+    position: absolute;
+    width: 1119px;
+    height: 242px;
+    left: 86px;
+    top: 189px;
+
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0px 0px 15px 11px rgba(0, 0, 0, 0.17);
+    backdrop-filter: blur(9.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.blurBox {
+    position: absolute;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    left: 105px;
+    background: none;
+    border: 1px solid #ffffff;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+#blurBox1 {
+    top: 210px;
+}
+
+#blurBox2 {
+    top: 257px;
+}
+
+#blurBox3 {
+    top: 304px;
+}
+
+#button {
+    position: absolute;
+    width: 194px;
+    height: 42px;
+    left: 105px;
+    top: 364px;
+
+    background: #000000;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(9.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 3px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#chosenKey {
+    position: absolute;
+    width: 230px;
+    height: 42px;
+    left: 86px;
+    top: 511px;
+
+    border: 1px solid #000000;
+    backdrop-filter: blur(9.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 1px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+#mainLine {
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    left: 0px;
+    top: 570px;
+    
+    border: 1px solid #DED2D2;
+}
+
+#list {
+    position: absolute;
+
+    left: 86px;
+    top: 597px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+/* .addLines {
+    position: absolute;
+    width: 1119px;
+    height: 0px;
+    left: 86px;
+} */
+
+#firLine {
+    top: 641px;  
+}
+
+#secLine {
+    top: 697px;
+}
+
+::placeholder {
+    position: absolute;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.return {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 1100px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.user-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.user-data {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.addLine {
+    position: initial;
+    width: 1160px;
+    height: 0px;
+    left: 20px;   
+}
+

@@ -32,13 +32,11 @@
     background: rgba(255, 255, 255, 0.17);
     box-shadow: 0px 0px 15px 11px rgba(0, 0, 0, 0.17);
     backdrop-filter: blur(9.5px);
-    /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
 }
 
 .blurBox {
-    position: absolute;
     box-sizing: border-box;
 
     position: absolute;
@@ -53,20 +51,20 @@
     font-weight: 100;
     font-size: 14px;
     line-height: 16px;
-    text-align: left;
+    text-align: center;
 
     color: #FFFFFF;
 }
 
-#blurBox1 {
+#name {
     top: 210px;
 }
 
-#blurBox2 {
+#selKey {
     top: 257px;
 }
 
-#blurBox3 {
+#calendar {
     top: 304px;
 }
 
@@ -80,7 +78,6 @@
     background: #000000;
     box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.19);
     backdrop-filter: blur(9.5px);
-    /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 3px;
 
@@ -89,7 +86,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    /* identical to box height */
 
     text-align: center;
 
@@ -105,7 +101,6 @@
 
     border: 1px solid #000000;
     backdrop-filter: blur(9.5px);
-    /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 1px;
 
@@ -143,30 +138,11 @@
     color: #000000;
 }
 
-/* .addLines {
+.addLine {
     position: absolute;
     width: 1119px;
     height: 0px;
     left: 86px;
-} */
-
-#firLine {
-    top: 641px;  
-}
-
-#secLine {
-    top: 697px;
-}
-
-::placeholder {
-    position: absolute;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
 }
 
 .return {
@@ -202,8 +178,12 @@
 
 .addLine {
     position: initial;
-    width: 1160px;
+    width: 1154px;
     height: 0px;
-    left: 20px;   
+    left: 20px;
+    border: 1px solid #DED2D2;
 }
+/* 
+#menu {
 
+} */

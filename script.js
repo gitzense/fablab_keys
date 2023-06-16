@@ -18,9 +18,9 @@
 // }
 
 function buttonPressed() {
-    let textEl = document.querySelector("#blurBox1");
-    let selectEl = document.querySelector("#blurBox2");
-    let dateEl = document.querySelector("#blurBox3");
+    let textEl = document.querySelector("#name");
+    let selectEl = document.querySelector("#selKey");
+    let dateEl = document.querySelector("#calendar");
 
     let user = {
         name: textEl.value,
@@ -66,7 +66,7 @@ function getUsers() {
 
             let addLine = document.createElement("hr");
             addLine.setAttribute("class", "addLine");
-            container.appendChild(addLine);
+            userData.appendChild(addLine);
         }
     });
 }
@@ -74,10 +74,11 @@ function getUsers() {
 
 function returnKey() {
     let delEl = document.querySelector(".return");
-    let revDiv = delEl.parentElement.parentElement;
-    let fullStr = revDiv.querySelector(".user-data");
-    revDiv.remove();
-    delId = fullStr.textContent.split(" ")[0]
+    let delDiv = delEl.parentElement.parentElement;
+    delDiv.remove();
+
+    let delStr = delDiv.querySelector(".user-data");
+    delId = delStr.textContent.split(" ")[0]
     // console.log(revDiv.textContent.split(" ")[0]);
 
     fetch(`http://127.0.0.1:8000/delete/${delId}`)
